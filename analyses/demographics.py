@@ -35,7 +35,7 @@ def get_sex(scan_id):
 def get_hand(scan_id):
 
     df = df_main
-    r_hand = df.R_Hand[df.Scan_id == scan_id]
+    r_hand = df.Right_Hand[df.Scan_id == scan_id]
 
     if r_hand.isna().values.any():
         return "NA"
