@@ -1,0 +1,682 @@
+#!/usr/bin/env bash
+
+# Registration T1 to MNI
+nice python reg_t12mni_N4corr.py 10001 PS14_006 &
+nice python reg_t12mni_N4corr.py 10002 PS14_007 &
+nice python reg_t12mni_N4corr.py 10006 PS14_001 &
+nice python reg_t12mni_N4corr.py 10006 PS14_053 &
+nice python reg_t12mni_N4corr.py 10006 PS14_120 &
+nice python reg_t12mni_N4corr.py 10006 PS15_061 &
+nice python reg_t12mni_N4corr.py 10006 PS15_138 &
+nice python reg_t12mni_N4corr.py 10007 PS14_054 &
+nice python reg_t12mni_N4corr.py 10007 PS14_121 &
+nice python reg_t12mni_N4corr.py 10007 PS15_062 &
+nice python reg_t12mni_N4corr.py 10007 PS15_139 &
+nice python reg_t12mni_N4corr.py 10008 PS14_046 &
+nice python reg_t12mni_N4corr.py 10008 PS14_079 &
+nice python reg_t12mni_N4corr.py 10008 PS15_040 &
+nice python reg_t12mni_N4corr.py 10008 PS16_001 &
+nice python reg_t12mni_N4corr.py 10008 PS16_045 &
+nice python reg_t12mni_N4corr.py 10008 PS17_018 &
+nice python reg_t12mni_N4corr.py 10009 PS14_070 &
+nice python reg_t12mni_N4corr.py 10009 PS15_002 &
+nice python reg_t12mni_N4corr.py 10009 PS15_092 &
+nice python reg_t12mni_N4corr.py 10009 PS16_020 &
+nice python reg_t12mni_N4corr.py 10009 PS16_072 &
+nice python reg_t12mni_N4corr.py 10009 PS17_029 &
+nice python reg_t12mni_N4corr.py 10010 PS14_005 &
+nice python reg_t12mni_N4corr.py 10010 PS14_056 &
+nice python reg_t12mni_N4corr.py 10010 PS15_014 &
+nice python reg_t12mni_N4corr.py 10010 PS15_095 &
+nice python reg_t12mni_N4corr.py 10010 PS16_004 &
+nice python reg_t12mni_N4corr.py 10010 PS16_046 &
+nice python reg_t12mni_N4corr.py 10010 PS17_008 &
+nice python reg_t12mni_N4corr.py 10011 PS14_008 &
+nice python reg_t12mni_N4corr.py 10012 PS14_009 &
+nice python reg_t12mni_N4corr.py 10014 PS14_014 &
+nice python reg_t12mni_N4corr.py 10014 PS15_051 &
+nice python reg_t12mni_N4corr.py 10014 PS15_112 &
+nice python reg_t12mni_N4corr.py 10014 PS16_030
+nice python reg_t12mni_N4corr.py 10015 PS14_015 &
+nice python reg_t12mni_N4corr.py 10015 PS15_066 &
+nice python reg_t12mni_N4corr.py 10020 PS14_017 &
+nice python reg_t12mni_N4corr.py 10020 PS14_073 &
+nice python reg_t12mni_N4corr.py 10020 PS15_032 &
+nice python reg_t12mni_N4corr.py 10020 PS15_116 &
+nice python reg_t12mni_N4corr.py 10020 PS16_028 &
+nice python reg_t12mni_N4corr.py 10020 PS17_013 &
+nice python reg_t12mni_N4corr.py 10021 PS14_018 &
+nice python reg_t12mni_N4corr.py 10021 PS14_081 &
+nice python reg_t12mni_N4corr.py 10021 PS15_045 &
+nice python reg_t12mni_N4corr.py 10021 PS15_115 &
+nice python reg_t12mni_N4corr.py 10021 PS16_031 &
+nice python reg_t12mni_N4corr.py 10021 PS17_011 &
+nice python reg_t12mni_N4corr.py 10022 PS14_019 &
+nice python reg_t12mni_N4corr.py 10022 PS14_094 &
+nice python reg_t12mni_N4corr.py 10022 PS15_049 &
+nice python reg_t12mni_N4corr.py 10022 PS15_128 &
+nice python reg_t12mni_N4corr.py 10022 PS16_036 &
+nice python reg_t12mni_N4corr.py 10023 PS14_020 &
+nice python reg_t12mni_N4corr.py 10023 PS14_137 &
+nice python reg_t12mni_N4corr.py 10023 PS15_078 &
+nice python reg_t12mni_N4corr.py 10023 PS15_126 &
+nice python reg_t12mni_N4corr.py 10023 PS16_056 &
+nice python reg_t12mni_N4corr.py 10023 PS17_021 &
+nice python reg_t12mni_N4corr.py 10024 PS14_022 &
+nice python reg_t12mni_N4corr.py 10025 PS14_021 &
+nice python reg_t12mni_N4corr.py 10025 PS14_075 &
+nice python reg_t12mni_N4corr.py 10025 PS15_041 &
+nice python reg_t12mni_N4corr.py 10025 PS15_120 &
+nice python reg_t12mni_N4corr.py 10025 PS16_034 &
+nice python reg_t12mni_N4corr.py 10027 PS14_074 &
+nice python reg_t12mni_N4corr.py 10027 PS15_037 &
+nice python reg_t12mni_N4corr.py 10027 PS15_114 &
+nice python reg_t12mni_N4corr.py 10027 PS16_057 &
+nice python reg_t12mni_N4corr.py 10027 PS17_019
+nice python reg_t12mni_N4corr.py 10028 PS14_028 &
+nice python reg_t12mni_N4corr.py 10029 PS14_026 &
+nice python reg_t12mni_N4corr.py 10029 PS14_119 &
+nice python reg_t12mni_N4corr.py 10029 PS15_063 &
+nice python reg_t12mni_N4corr.py 10032 PS14_029 &
+nice python reg_t12mni_N4corr.py 10032 PS14_144 &
+nice python reg_t12mni_N4corr.py 10032 PS15_121 &
+nice python reg_t12mni_N4corr.py 10032 PS16_037 &
+nice python reg_t12mni_N4corr.py 10032 PS17_006 &
+nice python reg_t12mni_N4corr.py 10037 PS14_034 &
+nice python reg_t12mni_N4corr.py 10037 PS14_078 &
+nice python reg_t12mni_N4corr.py 10037 PS15_140 &
+nice python reg_t12mni_N4corr.py 10037 PS17_014 &
+nice python reg_t12mni_N4corr.py 10039 PS14_036 &
+nice python reg_t12mni_N4corr.py 10042 PS14_039 &
+nice python reg_t12mni_N4corr.py 10042 PS14_111 &
+nice python reg_t12mni_N4corr.py 10044 PS14_041 &
+nice python reg_t12mni_N4corr.py 10044 PS14_071 &
+nice python reg_t12mni_N4corr.py 10044 PS15_103 &
+nice python reg_t12mni_N4corr.py 10044 PS16_019 &
+nice python reg_t12mni_N4corr.py 10044 PS16_068 &
+nice python reg_t12mni_N4corr.py 10045 PS14_042 &
+nice python reg_t12mni_N4corr.py 10045 PS14_099 &
+nice python reg_t12mni_N4corr.py 10045 PS16_083 &
+nice python reg_t12mni_N4corr.py 10046 PS14_040 &
+nice python reg_t12mni_N4corr.py 10046 PS15_099 &
+nice python reg_t12mni_N4corr.py 10046 PS16_023 &
+nice python reg_t12mni_N4corr.py 10046 PS17_009 &
+nice python reg_t12mni_N4corr.py 10047 PS14_044 &
+nice python reg_t12mni_N4corr.py 10047 PS14_136 &
+nice python reg_t12mni_N4corr.py 10047 PS15_101 &
+nice python reg_t12mni_N4corr.py 10047 PS16_018 &
+nice python reg_t12mni_N4corr.py 10048 PS14_045 &
+nice python reg_t12mni_N4corr.py 10049 PS14_047 &
+nice python reg_t12mni_N4corr.py 10049 PS14_117 &
+nice python reg_t12mni_N4corr.py 10049 PS15_084
+nice python reg_t12mni_N4corr.py 10049 PS16_053 &
+nice python reg_t12mni_N4corr.py 10049 PS17_023 &
+nice python reg_t12mni_N4corr.py 10051 PS14_050 &
+nice python reg_t12mni_N4corr.py 10053 PS14_134 &
+nice python reg_t12mni_N4corr.py 10053 PS15_059 &
+nice python reg_t12mni_N4corr.py 10053 PS16_009 &
+nice python reg_t12mni_N4corr.py 10053 PS16_049 &
+nice python reg_t12mni_N4corr.py 10054 PS14_051 &
+nice python reg_t12mni_N4corr.py 10054 PS14_110 &
+nice python reg_t12mni_N4corr.py 10054 PS15_057 &
+nice python reg_t12mni_N4corr.py 10054 PS15_110 &
+nice python reg_t12mni_N4corr.py 10054 PS16_032 &
+nice python reg_t12mni_N4corr.py 10054 PS17_034 &
+nice python reg_t12mni_N4corr.py 10056 PS14_058 &
+nice python reg_t12mni_N4corr.py 10056 PS15_009 &
+nice python reg_t12mni_N4corr.py 10056 PS15_098 &
+nice python reg_t12mni_N4corr.py 10056 PS16_016 &
+nice python reg_t12mni_N4corr.py 10057 PS14_057 &
+nice python reg_t12mni_N4corr.py 10057 PS14_113 &
+nice python reg_t12mni_N4corr.py 10058 PS14_059 &
+nice python reg_t12mni_N4corr.py 10059 PS14_068 &
+nice python reg_t12mni_N4corr.py 10059 PS15_004 &
+nice python reg_t12mni_N4corr.py 10059 PS15_082 &
+nice python reg_t12mni_N4corr.py 10059 PS16_011 &
+nice python reg_t12mni_N4corr.py 10059 PS16_065 &
+nice python reg_t12mni_N4corr.py 10059 PS17_026 &
+nice python reg_t12mni_N4corr.py 10061 PS14_060 &
+nice python reg_t12mni_N4corr.py 10061 PS14_123 &
+nice python reg_t12mni_N4corr.py 10061 PS15_056 &
+nice python reg_t12mni_N4corr.py 10061 PS15_125 &
+nice python reg_t12mni_N4corr.py 10061 PS16_054 &
+nice python reg_t12mni_N4corr.py 10061 PS17_015 &
+nice python reg_t12mni_N4corr.py 10064 PS14_067 &
+nice python reg_t12mni_N4corr.py 10064 PS15_109 &
+nice python reg_t12mni_N4corr.py 10064 PS16_085 &
+nice python reg_t12mni_N4corr.py 10065 PS14_066
+nice python reg_t12mni_N4corr.py 10065 PS14_140 &
+nice python reg_t12mni_N4corr.py 10065 PS15_069 &
+nice python reg_t12mni_N4corr.py 10065 PS16_002 &
+nice python reg_t12mni_N4corr.py 10065 PS16_043 &
+nice python reg_t12mni_N4corr.py 10065 PS17_007 &
+nice python reg_t12mni_N4corr.py 10066 PS14_061 &
+nice python reg_t12mni_N4corr.py 10066 PS15_102 &
+nice python reg_t12mni_N4corr.py 10066 PS16_058 &
+nice python reg_t12mni_N4corr.py 10067 PS16_005 &
+nice python reg_t12mni_N4corr.py 10067 PS16_055 &
+nice python reg_t12mni_N4corr.py 10067 PS17_003 &
+nice python reg_t12mni_N4corr.py 10068 PS14_069 &
+nice python reg_t12mni_N4corr.py 10068 PS15_001 &
+nice python reg_t12mni_N4corr.py 10068 PS15_077 &
+nice python reg_t12mni_N4corr.py 10069 PS14_072 &
+nice python reg_t12mni_N4corr.py 10069 PS15_071 &
+nice python reg_t12mni_N4corr.py 10070 PS14_083 &
+nice python reg_t12mni_N4corr.py 10073 PS14_086 &
+nice python reg_t12mni_N4corr.py 10073 PS15_013 &
+nice python reg_t12mni_N4corr.py 10073 PS15_086 &
+nice python reg_t12mni_N4corr.py 10073 PS16_013 &
+nice python reg_t12mni_N4corr.py 10073 PS16_050 &
+nice python reg_t12mni_N4corr.py 10074 PS15_011 &
+nice python reg_t12mni_N4corr.py 10075 PS14_088 &
+nice python reg_t12mni_N4corr.py 10077 PS14_091 &
+nice python reg_t12mni_N4corr.py 10077 PS15_012 &
+nice python reg_t12mni_N4corr.py 10077 PS15_123 &
+nice python reg_t12mni_N4corr.py 10077 PS16_022 &
+nice python reg_t12mni_N4corr.py 10077 PS16_066 &
+nice python reg_t12mni_N4corr.py 10079 PS15_029 &
+nice python reg_t12mni_N4corr.py 10079 PS15_108 &
+nice python reg_t12mni_N4corr.py 10079 PS16_039 &
+nice python reg_t12mni_N4corr.py 10079 PS16_079 &
+nice python reg_t12mni_N4corr.py 10079 PS17_056 &
+nice python reg_t12mni_N4corr.py 10080 PS14_092 &
+nice python reg_t12mni_N4corr.py 10080 PS15_016
+nice python reg_t12mni_N4corr.py 10080 PS15_144 &
+nice python reg_t12mni_N4corr.py 10080 PS16_059 &
+nice python reg_t12mni_N4corr.py 10080 PS17_027 &
+nice python reg_t12mni_N4corr.py 10081 PS15_044 &
+nice python reg_t12mni_N4corr.py 10081 PS15_104 &
+nice python reg_t12mni_N4corr.py 10082 PS14_097 &
+nice python reg_t12mni_N4corr.py 10082 PS15_031 &
+nice python reg_t12mni_N4corr.py 10082 PS16_027 &
+nice python reg_t12mni_N4corr.py 10083 PS14_098 &
+nice python reg_t12mni_N4corr.py 10083 PS15_053 &
+nice python reg_t12mni_N4corr.py 10083 PS15_113 &
+nice python reg_t12mni_N4corr.py 10083 PS16_051 &
+nice python reg_t12mni_N4corr.py 10083 PS17_022 &
+nice python reg_t12mni_N4corr.py 10083 PS17_038 &
+nice python reg_t12mni_N4corr.py 10085 PS15_025 &
+nice python reg_t12mni_N4corr.py 10085 PS15_105 &
+nice python reg_t12mni_N4corr.py 10085 PS16_041 &
+nice python reg_t12mni_N4corr.py 10085 PS17_050 &
+nice python reg_t12mni_N4corr.py 10086 PS14_101 &
+nice python reg_t12mni_N4corr.py 10087 PS14_105 &
+nice python reg_t12mni_N4corr.py 10087 PS15_030 &
+nice python reg_t12mni_N4corr.py 10087 PS15_111 &
+nice python reg_t12mni_N4corr.py 10087 PS16_038 &
+nice python reg_t12mni_N4corr.py 10087 PS16_077 &
+nice python reg_t12mni_N4corr.py 10087 PS17_024 &
+nice python reg_t12mni_N4corr.py 10088 PS14_103 &
+nice python reg_t12mni_N4corr.py 10088 PS15_047 &
+nice python reg_t12mni_N4corr.py 10088 PS15_147 &
+nice python reg_t12mni_N4corr.py 10088 PS16_060 &
+nice python reg_t12mni_N4corr.py 10088 PS17_001 &
+nice python reg_t12mni_N4corr.py 10089 PS14_104 &
+nice python reg_t12mni_N4corr.py 10089 PS15_023 &
+nice python reg_t12mni_N4corr.py 10089 PS15_097 &
+nice python reg_t12mni_N4corr.py 10089 PS16_015 &
+nice python reg_t12mni_N4corr.py 10090 PS14_102 &
+nice python reg_t12mni_N4corr.py 10090 PS15_015
+nice python reg_t12mni_N4corr.py 10090 PS15_096 &
+nice python reg_t12mni_N4corr.py 10090 PS16_008 &
+nice python reg_t12mni_N4corr.py 10090 PS16_067 &
+nice python reg_t12mni_N4corr.py 10090 PS17_031 &
+nice python reg_t12mni_N4corr.py 10094 PS14_106 &
+nice python reg_t12mni_N4corr.py 10094 PS15_124 &
+nice python reg_t12mni_N4corr.py 10094 PS16_044 &
+nice python reg_t12mni_N4corr.py 10094 PS17_045 &
+nice python reg_t12mni_N4corr.py 10096 PS14_115 &
+nice python reg_t12mni_N4corr.py 10096 PS15_052 &
+nice python reg_t12mni_N4corr.py 10096 PS15_131 &
+nice python reg_t12mni_N4corr.py 10096 PS16_040 &
+nice python reg_t12mni_N4corr.py 10096 PS16_076 &
+nice python reg_t12mni_N4corr.py 10096 PS17_054 &
+nice python reg_t12mni_N4corr.py 10097 PS14_080 &
+nice python reg_t12mni_N4corr.py 10097 PS15_048 &
+nice python reg_t12mni_N4corr.py 10097 PS15_127 &
+nice python reg_t12mni_N4corr.py 10097 PS16_026 &
+nice python reg_t12mni_N4corr.py 10097 PS17_017 &
+nice python reg_t12mni_N4corr.py 10098 PS14_118 &
+nice python reg_t12mni_N4corr.py 10098 PS15_118 &
+nice python reg_t12mni_N4corr.py 10098 PS16_070 &
+nice python reg_t12mni_N4corr.py 10098 PS17_010 &
+nice python reg_t12mni_N4corr.py 10099 PS14_122 &
+nice python reg_t12mni_N4corr.py 10104 PS14_129 &
+nice python reg_t12mni_N4corr.py 10104 PS15_042 &
+nice python reg_t12mni_N4corr.py 10104 PS16_003 &
+nice python reg_t12mni_N4corr.py 10104 PS16_081 &
+nice python reg_t12mni_N4corr.py 10104 PS17_028 &
+nice python reg_t12mni_N4corr.py 10105 PS14_130 &
+nice python reg_t12mni_N4corr.py 10107 PS14_132 &
+nice python reg_t12mni_N4corr.py 10107 PS15_036 &
+nice python reg_t12mni_N4corr.py 10107 PS16_042 &
+nice python reg_t12mni_N4corr.py 10109 PS14_138 &
+nice python reg_t12mni_N4corr.py 10109 PS15_050 &
+nice python reg_t12mni_N4corr.py 10109 PS15_119
+nice python reg_t12mni_N4corr.py 10109 PS16_033 &
+nice python reg_t12mni_N4corr.py 10109 PS16_078 &
+nice python reg_t12mni_N4corr.py 10110 PS14_139 &
+nice python reg_t12mni_N4corr.py 10110 PS15_094 &
+nice python reg_t12mni_N4corr.py 10110 PS16_010 &
+nice python reg_t12mni_N4corr.py 10110 PS16_071 &
+nice python reg_t12mni_N4corr.py 10117 CL_Dev_004 &
+nice python reg_t12mni_N4corr.py 10117 CL_Dev_005 &
+nice python reg_t12mni_N4corr.py 10117 CL_Dev_007 &
+nice python reg_t12mni_N4corr.py 10117 CL_Dev_008 &
+nice python reg_t12mni_N4corr.py 10117 CL_Dev_010 &
+nice python reg_t12mni_N4corr.py 10117 CL_Dev_012 &
+nice python reg_t12mni_N4corr.py 10117 CL_Dev_015 &
+nice python reg_t12mni_N4corr.py 10117 CL_Dev_017 &
+nice python reg_t12mni_N4corr.py 10117 CL_Dev_019 &
+nice python reg_t12mni_N4corr.py 10117 CL_Dev_022 &
+nice python reg_t12mni_N4corr.py 10117 PS15_033 &
+nice python reg_t12mni_N4corr.py 10117 PS15_070 &
+nice python reg_t12mni_N4corr.py 10117 PS15_081 &
+nice python reg_t12mni_N4corr.py 10118 PS15_017 &
+nice python reg_t12mni_N4corr.py 10118 PS15_079 &
+nice python reg_t12mni_N4corr.py 10118 PS16_024 &
+nice python reg_t12mni_N4corr.py 10121 PS15_020 &
+nice python reg_t12mni_N4corr.py 10121 PS16_006 &
+nice python reg_t12mni_N4corr.py 10121 PS16_063 &
+nice python reg_t12mni_N4corr.py 10121 PS17_016 &
+nice python reg_t12mni_N4corr.py 10121 PS17_051 &
+nice python reg_t12mni_N4corr.py 10122 PS15_021 &
+nice python reg_t12mni_N4corr.py 10122 PS15_087 &
+nice python reg_t12mni_N4corr.py 10122 PS16_014 &
+nice python reg_t12mni_N4corr.py 10122 PS16_069 &
+nice python reg_t12mni_N4corr.py 10122 PS17_012 &
+nice python reg_t12mni_N4corr.py 10123 PS15_022 &
+nice python reg_t12mni_N4corr.py 10123 PS16_021 &
+nice python reg_t12mni_N4corr.py 10123 PS16_074 &
+nice python reg_t12mni_N4corr.py 10127 PS15_106
+nice python reg_t12mni_N4corr.py 10128 PS15_046 &
+nice python reg_t12mni_N4corr.py 10128 PS16_082 &
+nice python reg_t12mni_N4corr.py 10131 PS16_084 &
+nice python reg_t12mni_N4corr.py 10132 PS15_072 &
+nice python reg_t12mni_N4corr.py 10133 PS15_085 &
+nice python reg_t12mni_N4corr.py 10133 PS15_146 &
+nice python reg_t12mni_N4corr.py 10134 CL_Dev_002 &
+nice python reg_t12mni_N4corr.py 10134 PS15_136 &
+nice python reg_t12mni_N4corr.py 10134 PS16_052 &
+nice python reg_t12mni_N4corr.py 10135 PS16_025 &
+nice python reg_t12mni_N4corr.py 10136 CL_Dev_009 &
+nice python reg_t12mni_N4corr.py 10136 CL_Dev_011 &
+nice python reg_t12mni_N4corr.py 10136 CL_Dev_014 &
+nice python reg_t12mni_N4corr.py 10136 CL_Dev_016 &
+nice python reg_t12mni_N4corr.py 10136 CL_Dev_018 &
+nice python reg_t12mni_N4corr.py 10136 CL_DEV_023 &
+nice python reg_t12mni_N4corr.py 10137 PS16_061 &
+nice python reg_t12mni_N4corr.py 10137 PS17_002 &
+nice python reg_t12mni_N4corr.py 10137 PS17_033 &
+nice python reg_t12mni_N4corr.py 10140 PS1064-10-1 &
+nice python reg_t12mni_N4corr.py 10141 PS0969-10-1 &
+nice python reg_t12mni_N4corr.py 10142 PS1120-10-1 &
+nice python reg_t12mni_N4corr.py 10143 PS0935-10-1 &
+nice python reg_t12mni_N4corr.py 10146 PS1119-10-1 &
+nice python reg_t12mni_N4corr.py 10147 PS1183-10-1 &
+nice python reg_t12mni_N4corr.py 10147 PS17_047 &
+nice python reg_t12mni_N4corr.py 10149 PS0536-10-1 &
+nice python reg_t12mni_N4corr.py 10150 PS0548-10-1 &
+nice python reg_t12mni_N4corr.py 10150 PS17_035 &
+nice python reg_t12mni_N4corr.py 10151 PS1184-10-1 &
+nice python reg_t12mni_N4corr.py 10151 PS17_042 &
+nice python reg_t12mni_N4corr.py 10152 PS17_037 &
+nice python reg_t12mni_N4corr.py 10153 PS1395-10-1 &
+nice python reg_t12mni_N4corr.py 10154 PS17_049 &
+nice python reg_t12mni_N4corr.py 10155 PS1313-10-1 &
+nice python reg_t12mni_N4corr.py 10156 PS1432-10-1
+nice python reg_t12mni_N4corr.py 10157 PS1360-10-1 &
+nice python reg_t12mni_N4corr.py 10158 PS0626-10-1 &
+nice python reg_t12mni_N4corr.py 10159 PS0322-10-2 &
+nice python reg_t12mni_N4corr.py 10159 PS17_039 &
+nice python reg_t12mni_N4corr.py 10160 PS0579-10-1 &
+nice python reg_t12mni_N4corr.py 10161 PS17_032 &
+nice python reg_t12mni_N4corr.py 10163 PS1477-10-1 &
+nice python reg_t12mni_N4corr.py 10163 PS17_041 &
+nice python reg_t12mni_N4corr.py 10164 PS17_1575101 &
+
+
+# CBF to MNI
+ nice python cbf2mni.py 10001 PS14_006 &
+ nice python cbf2mni.py 10002 PS14_007 &
+ nice python cbf2mni.py 10006 PS14_001 &
+ nice python cbf2mni.py 10006 PS14_053 &
+ nice python cbf2mni.py 10006 PS14_120 &
+ nice python cbf2mni.py 10006 PS15_061 &
+ nice python cbf2mni.py 10006 PS15_138 &
+ nice python cbf2mni.py 10007 PS14_054 &
+ nice python cbf2mni.py 10007 PS14_121 &
+ nice python cbf2mni.py 10007 PS15_062 &
+ nice python cbf2mni.py 10007 PS15_139 &
+ nice python cbf2mni.py 10008 PS14_046 &
+ nice python cbf2mni.py 10008 PS14_079 &
+ nice python cbf2mni.py 10008 PS15_040 &
+ nice python cbf2mni.py 10008 PS16_001 &
+ nice python cbf2mni.py 10008 PS16_045 &
+ nice python cbf2mni.py 10008 PS17_018 &
+ nice python cbf2mni.py 10009 PS14_070 &
+ nice python cbf2mni.py 10009 PS15_002 &
+ nice python cbf2mni.py 10009 PS15_092 &
+ nice python cbf2mni.py 10009 PS16_020 &
+ nice python cbf2mni.py 10009 PS16_072 &
+ nice python cbf2mni.py 10009 PS17_029 &
+ nice python cbf2mni.py 10010 PS14_005 &
+ nice python cbf2mni.py 10010 PS14_056 &
+ nice python cbf2mni.py 10010 PS15_014 &
+ nice python cbf2mni.py 10010 PS15_095 &
+ nice python cbf2mni.py 10010 PS16_004 &
+ nice python cbf2mni.py 10010 PS16_046 &
+ nice python cbf2mni.py 10010 PS17_008 &
+ nice python cbf2mni.py 10011 PS14_008 &
+ nice python cbf2mni.py 10012 PS14_009 &
+ nice python cbf2mni.py 10014 PS14_014 &
+ nice python cbf2mni.py 10014 PS15_051 &
+ nice python cbf2mni.py 10014 PS15_112 &
+ nice python cbf2mni.py 10014 PS16_030 &
+ nice python cbf2mni.py 10015 PS14_015
+ nice python cbf2mni.py 10015 PS15_066 &
+ nice python cbf2mni.py 10020 PS14_017 &
+ nice python cbf2mni.py 10020 PS14_073 &
+ nice python cbf2mni.py 10020 PS15_032 &
+ nice python cbf2mni.py 10020 PS15_116 &
+ nice python cbf2mni.py 10020 PS16_028 &
+ nice python cbf2mni.py 10020 PS17_013 &
+ nice python cbf2mni.py 10021 PS14_018 &
+ nice python cbf2mni.py 10021 PS14_081 &
+ nice python cbf2mni.py 10021 PS15_045 &
+ nice python cbf2mni.py 10021 PS15_115 &
+ nice python cbf2mni.py 10021 PS16_031 &
+ nice python cbf2mni.py 10021 PS17_011 &
+ nice python cbf2mni.py 10022 PS14_019 &
+ nice python cbf2mni.py 10022 PS14_094 &
+ nice python cbf2mni.py 10022 PS15_049 &
+ nice python cbf2mni.py 10022 PS15_128 &
+ nice python cbf2mni.py 10022 PS16_036 &
+ nice python cbf2mni.py 10023 PS14_020 &
+ nice python cbf2mni.py 10023 PS14_137 &
+ nice python cbf2mni.py 10023 PS15_078 &
+ nice python cbf2mni.py 10023 PS15_126 &
+ nice python cbf2mni.py 10023 PS16_056 &
+ nice python cbf2mni.py 10023 PS17_021 &
+ nice python cbf2mni.py 10024 PS14_022 &
+ nice python cbf2mni.py 10025 PS14_021 &
+ nice python cbf2mni.py 10025 PS14_075 &
+ nice python cbf2mni.py 10025 PS15_041 &
+ nice python cbf2mni.py 10025 PS15_120 &
+ nice python cbf2mni.py 10025 PS16_034 &
+ nice python cbf2mni.py 10027 PS14_074 &
+ nice python cbf2mni.py 10027 PS15_037 &
+ nice python cbf2mni.py 10027 PS15_114 &
+ nice python cbf2mni.py 10027 PS16_057 &
+ nice python cbf2mni.py 10027 PS17_019 &
+ nice python cbf2mni.py 10028 PS14_028 &
+ nice python cbf2mni.py 10029 PS14_026
+ nice python cbf2mni.py 10029 PS14_119 &
+ nice python cbf2mni.py 10029 PS15_063 &
+ nice python cbf2mni.py 10032 PS14_029 &
+ nice python cbf2mni.py 10032 PS14_144 &
+ nice python cbf2mni.py 10032 PS15_121 &
+ nice python cbf2mni.py 10032 PS16_037 &
+ nice python cbf2mni.py 10032 PS17_006 &
+ nice python cbf2mni.py 10037 PS14_034 &
+ nice python cbf2mni.py 10037 PS14_078 &
+ nice python cbf2mni.py 10037 PS15_140 &
+ nice python cbf2mni.py 10037 PS17_014 &
+ nice python cbf2mni.py 10039 PS14_036 &
+ nice python cbf2mni.py 10042 PS14_039 &
+ nice python cbf2mni.py 10042 PS14_111 &
+ nice python cbf2mni.py 10044 PS14_041 &
+ nice python cbf2mni.py 10044 PS14_071 &
+ nice python cbf2mni.py 10044 PS15_103 &
+ nice python cbf2mni.py 10044 PS16_019 &
+ nice python cbf2mni.py 10044 PS16_068 &
+ nice python cbf2mni.py 10045 PS14_042 &
+ nice python cbf2mni.py 10045 PS14_099 &
+ nice python cbf2mni.py 10045 PS16_083 &
+ nice python cbf2mni.py 10046 PS14_040 &
+ nice python cbf2mni.py 10046 PS15_099 &
+ nice python cbf2mni.py 10046 PS16_023 &
+ nice python cbf2mni.py 10046 PS17_009 &
+ nice python cbf2mni.py 10047 PS14_044 &
+ nice python cbf2mni.py 10047 PS14_136 &
+ nice python cbf2mni.py 10047 PS15_101 &
+ nice python cbf2mni.py 10047 PS16_018 &
+ nice python cbf2mni.py 10048 PS14_045 &
+ nice python cbf2mni.py 10049 PS14_047 &
+ nice python cbf2mni.py 10049 PS14_117 &
+ nice python cbf2mni.py 10049 PS15_084 &
+ nice python cbf2mni.py 10049 PS16_053 &
+ nice python cbf2mni.py 10049 PS17_023 &
+ nice python cbf2mni.py 10051 PS14_050
+ nice python cbf2mni.py 10053 PS14_134 &
+ nice python cbf2mni.py 10053 PS15_059 &
+ nice python cbf2mni.py 10053 PS16_009 &
+ nice python cbf2mni.py 10053 PS16_049 &
+ nice python cbf2mni.py 10054 PS14_051 &
+ nice python cbf2mni.py 10054 PS14_110 &
+ nice python cbf2mni.py 10054 PS15_057 &
+ nice python cbf2mni.py 10054 PS15_110 &
+ nice python cbf2mni.py 10054 PS16_032 &
+ nice python cbf2mni.py 10054 PS17_034 &
+ nice python cbf2mni.py 10056 PS14_058 &
+ nice python cbf2mni.py 10056 PS15_009 &
+ nice python cbf2mni.py 10056 PS15_098 &
+ nice python cbf2mni.py 10056 PS16_016 &
+ nice python cbf2mni.py 10057 PS14_057 &
+ nice python cbf2mni.py 10057 PS14_113 &
+ nice python cbf2mni.py 10058 PS14_059 &
+ nice python cbf2mni.py 10059 PS14_068 &
+ nice python cbf2mni.py 10059 PS15_004 &
+ nice python cbf2mni.py 10059 PS15_082 &
+ nice python cbf2mni.py 10059 PS16_011 &
+ nice python cbf2mni.py 10059 PS16_065 &
+ nice python cbf2mni.py 10059 PS17_026 &
+ nice python cbf2mni.py 10061 PS14_060 &
+ nice python cbf2mni.py 10061 PS14_123 &
+ nice python cbf2mni.py 10061 PS15_056 &
+ nice python cbf2mni.py 10061 PS15_125 &
+ nice python cbf2mni.py 10061 PS16_054 &
+ nice python cbf2mni.py 10061 PS17_015 &
+ nice python cbf2mni.py 10064 PS14_067 &
+ nice python cbf2mni.py 10064 PS15_109 &
+ nice python cbf2mni.py 10064 PS16_085 &
+ nice python cbf2mni.py 10065 PS14_066 &
+ nice python cbf2mni.py 10065 PS14_140 &
+ nice python cbf2mni.py 10065 PS15_069 &
+ nice python cbf2mni.py 10065 PS16_002 &
+ nice python cbf2mni.py 10065 PS16_043
+ nice python cbf2mni.py 10065 PS17_007 &
+ nice python cbf2mni.py 10066 PS14_061 &
+ nice python cbf2mni.py 10066 PS15_102 &
+ nice python cbf2mni.py 10066 PS16_058 &
+ nice python cbf2mni.py 10067 PS16_005 &
+ nice python cbf2mni.py 10067 PS16_055 &
+ nice python cbf2mni.py 10067 PS17_003 &
+ nice python cbf2mni.py 10068 PS14_069 &
+ nice python cbf2mni.py 10068 PS15_001 &
+ nice python cbf2mni.py 10068 PS15_077 &
+ nice python cbf2mni.py 10069 PS14_072 &
+ nice python cbf2mni.py 10069 PS15_071 &
+ nice python cbf2mni.py 10070 PS14_083 &
+ nice python cbf2mni.py 10073 PS14_086 &
+ nice python cbf2mni.py 10073 PS15_013 &
+ nice python cbf2mni.py 10073 PS15_086 &
+ nice python cbf2mni.py 10073 PS16_013 &
+ nice python cbf2mni.py 10073 PS16_050 &
+ nice python cbf2mni.py 10074 PS15_011 &
+ nice python cbf2mni.py 10075 PS14_088 &
+ nice python cbf2mni.py 10077 PS14_091 &
+ nice python cbf2mni.py 10077 PS15_012 &
+ nice python cbf2mni.py 10077 PS15_123 &
+ nice python cbf2mni.py 10077 PS16_022 &
+ nice python cbf2mni.py 10077 PS16_066 &
+ nice python cbf2mni.py 10079 PS15_029 &
+ nice python cbf2mni.py 10079 PS15_108 &
+ nice python cbf2mni.py 10079 PS16_039 &
+ nice python cbf2mni.py 10079 PS16_079 &
+ nice python cbf2mni.py 10079 PS17_056 &
+ nice python cbf2mni.py 10080 PS14_092 &
+ nice python cbf2mni.py 10080 PS15_016 &
+ nice python cbf2mni.py 10080 PS15_144 &
+ nice python cbf2mni.py 10080 PS16_059 &
+ nice python cbf2mni.py 10080 PS17_027 &
+ nice python cbf2mni.py 10081 PS15_044 &
+ nice python cbf2mni.py 10081 PS15_104
+ nice python cbf2mni.py 10082 PS14_097 &
+ nice python cbf2mni.py 10082 PS15_031 &
+ nice python cbf2mni.py 10082 PS16_027 &
+ nice python cbf2mni.py 10083 PS14_098 &
+ nice python cbf2mni.py 10083 PS15_053 &
+ nice python cbf2mni.py 10083 PS15_113 &
+ nice python cbf2mni.py 10083 PS16_051 &
+ nice python cbf2mni.py 10083 PS17_022 &
+ nice python cbf2mni.py 10083 PS17_038 &
+ nice python cbf2mni.py 10085 PS15_025 &
+ nice python cbf2mni.py 10085 PS15_105 &
+ nice python cbf2mni.py 10085 PS16_041 &
+ nice python cbf2mni.py 10085 PS17_050 &
+ nice python cbf2mni.py 10086 PS14_101 &
+ nice python cbf2mni.py 10087 PS14_105 &
+ nice python cbf2mni.py 10087 PS15_030 &
+ nice python cbf2mni.py 10087 PS15_111 &
+ nice python cbf2mni.py 10087 PS16_038 &
+ nice python cbf2mni.py 10087 PS16_077 &
+ nice python cbf2mni.py 10087 PS17_024 &
+ nice python cbf2mni.py 10088 PS14_103 &
+ nice python cbf2mni.py 10088 PS15_047 &
+ nice python cbf2mni.py 10088 PS15_147 &
+ nice python cbf2mni.py 10088 PS16_060 &
+ nice python cbf2mni.py 10088 PS17_001 &
+ nice python cbf2mni.py 10089 PS14_104 &
+ nice python cbf2mni.py 10089 PS15_023 &
+ nice python cbf2mni.py 10089 PS15_097 &
+ nice python cbf2mni.py 10089 PS16_015 &
+ nice python cbf2mni.py 10090 PS14_102 &
+ nice python cbf2mni.py 10090 PS15_015 &
+ nice python cbf2mni.py 10090 PS15_096 &
+ nice python cbf2mni.py 10090 PS16_008 &
+ nice python cbf2mni.py 10090 PS16_067 &
+ nice python cbf2mni.py 10090 PS17_031 &
+ nice python cbf2mni.py 10094 PS14_106 &
+ nice python cbf2mni.py 10094 PS15_124
+ nice python cbf2mni.py 10094 PS16_044 &
+ nice python cbf2mni.py 10094 PS17_045 &
+ nice python cbf2mni.py 10096 PS14_115 &
+ nice python cbf2mni.py 10096 PS15_052 &
+ nice python cbf2mni.py 10096 PS15_131 &
+ nice python cbf2mni.py 10096 PS16_040 &
+ nice python cbf2mni.py 10096 PS16_076 &
+ nice python cbf2mni.py 10096 PS17_054 &
+ nice python cbf2mni.py 10097 PS14_080 &
+ nice python cbf2mni.py 10097 PS15_048 &
+ nice python cbf2mni.py 10097 PS15_127 &
+ nice python cbf2mni.py 10097 PS16_026 &
+ nice python cbf2mni.py 10097 PS17_017 &
+ nice python cbf2mni.py 10098 PS14_118 &
+ nice python cbf2mni.py 10098 PS15_118 &
+ nice python cbf2mni.py 10098 PS16_070 &
+ nice python cbf2mni.py 10098 PS17_010 &
+ nice python cbf2mni.py 10099 PS14_122 &
+ nice python cbf2mni.py 10104 PS14_129 &
+ nice python cbf2mni.py 10104 PS15_042 &
+ nice python cbf2mni.py 10104 PS16_003 &
+ nice python cbf2mni.py 10104 PS16_081 &
+ nice python cbf2mni.py 10104 PS17_028 &
+ nice python cbf2mni.py 10105 PS14_130 &
+ nice python cbf2mni.py 10107 PS14_132 &
+ nice python cbf2mni.py 10107 PS15_036 &
+ nice python cbf2mni.py 10107 PS16_042 &
+ nice python cbf2mni.py 10109 PS14_138 &
+ nice python cbf2mni.py 10109 PS15_050 &
+ nice python cbf2mni.py 10109 PS15_119 &
+ nice python cbf2mni.py 10109 PS16_033 &
+ nice python cbf2mni.py 10109 PS16_078 &
+ nice python cbf2mni.py 10110 PS14_139 &
+ nice python cbf2mni.py 10110 PS15_094 &
+ nice python cbf2mni.py 10110 PS16_010 &
+ nice python cbf2mni.py 10110 PS16_071 &
+ nice python cbf2mni.py 10117 CL_Dev_004
+ nice python cbf2mni.py 10117 CL_Dev_005 &
+ nice python cbf2mni.py 10117 CL_Dev_007 &
+ nice python cbf2mni.py 10117 CL_Dev_008 &
+ nice python cbf2mni.py 10117 CL_Dev_010 &
+ nice python cbf2mni.py 10117 CL_Dev_012 &
+ nice python cbf2mni.py 10117 CL_Dev_015 &
+ nice python cbf2mni.py 10117 CL_Dev_017 &
+ nice python cbf2mni.py 10117 CL_Dev_019 &
+ nice python cbf2mni.py 10117 CL_Dev_022 &
+ nice python cbf2mni.py 10117 PS15_033 &
+ nice python cbf2mni.py 10117 PS15_070 &
+ nice python cbf2mni.py 10117 PS15_081 &
+ nice python cbf2mni.py 10118 PS15_017 &
+ nice python cbf2mni.py 10118 PS15_079 &
+ nice python cbf2mni.py 10118 PS16_024 &
+ nice python cbf2mni.py 10121 PS15_020 &
+ nice python cbf2mni.py 10121 PS16_006 &
+ nice python cbf2mni.py 10121 PS16_063 &
+ nice python cbf2mni.py 10121 PS17_016 &
+ nice python cbf2mni.py 10121 PS17_051 &
+ nice python cbf2mni.py 10122 PS15_021 &
+ nice python cbf2mni.py 10122 PS15_087 &
+ nice python cbf2mni.py 10122 PS16_014 &
+ nice python cbf2mni.py 10122 PS16_069 &
+ nice python cbf2mni.py 10122 PS17_012 &
+ nice python cbf2mni.py 10123 PS15_022 &
+ nice python cbf2mni.py 10123 PS16_021 &
+ nice python cbf2mni.py 10123 PS16_074 &
+ nice python cbf2mni.py 10127 PS15_106 &
+ nice python cbf2mni.py 10128 PS15_046 &
+ nice python cbf2mni.py 10128 PS16_082 &
+ nice python cbf2mni.py 10131 PS16_084 &
+ nice python cbf2mni.py 10132 PS15_072 &
+ nice python cbf2mni.py 10133 PS15_085 &
+ nice python cbf2mni.py 10133 PS15_146 &
+ nice python cbf2mni.py 10134 CL_Dev_002 &
+ nice python cbf2mni.py 10134 PS15_136
+ nice python cbf2mni.py 10134 PS16_052 &
+ nice python cbf2mni.py 10135 PS16_025 &
+ nice python cbf2mni.py 10136 CL_Dev_009 &
+ nice python cbf2mni.py 10136 CL_Dev_011 &
+ nice python cbf2mni.py 10136 CL_Dev_014 &
+ nice python cbf2mni.py 10136 CL_Dev_016 &
+ nice python cbf2mni.py 10136 CL_Dev_018 &
+ nice python cbf2mni.py 10136 CL_DEV_023 &
+ nice python cbf2mni.py 10137 PS16_061 &
+ nice python cbf2mni.py 10137 PS17_002 &
+ nice python cbf2mni.py 10137 PS17_033 &
+ nice python cbf2mni.py 10140 PS1064-10-1 &
+ nice python cbf2mni.py 10141 PS0969-10-1 &
+ nice python cbf2mni.py 10142 PS1120-10-1 &
+ nice python cbf2mni.py 10143 PS0935-10-1 &
+ nice python cbf2mni.py 10146 PS1119-10-1 &
+ nice python cbf2mni.py 10147 PS1183-10-1 &
+ nice python cbf2mni.py 10147 PS17_047 &
+ nice python cbf2mni.py 10149 PS0536-10-1 &
+ nice python cbf2mni.py 10150 PS0548-10-1 &
+ nice python cbf2mni.py 10150 PS17_035 &
+ nice python cbf2mni.py 10151 PS1184-10-1 &
+ nice python cbf2mni.py 10151 PS17_042 &
+ nice python cbf2mni.py 10152 PS17_037 &
+ nice python cbf2mni.py 10153 PS1395-10-1 &
+ nice python cbf2mni.py 10154 PS17_049 &
+ nice python cbf2mni.py 10155 PS1313-10-1 &
+ nice python cbf2mni.py 10156 PS1432-10-1 &
+ nice python cbf2mni.py 10157 PS1360-10-1 &
+ nice python cbf2mni.py 10158 PS0626-10-1 &
+ nice python cbf2mni.py 10159 PS0322-10-2 &
+ nice python cbf2mni.py 10159 PS17_039 &
+ nice python cbf2mni.py 10160 PS0579-10-1 &
+ nice python cbf2mni.py 10161 PS17_032 &
+ nice python cbf2mni.py 10163 PS1477-10-1 &
+ nice python cbf2mni.py 10163 PS17_041 &
+ nice python cbf2mni.py 10164 PS17_1575101
+
+
+# Rerun and tests
+#python cbf2mni.py 10032 PS14_144
+#python cbf2mni.py 10117 CL_Dev_019 &
+#python cbf2mni.py 10117 CL_Dev_022 &
+#python cbf2mni.py 10134 PS15_136 &
+#python cbf2mni.py 10157 PS1360-10-1
+#
+#python cbf2mni.py 10006 PS15_138

@@ -1,0 +1,9 @@
+# 3dClustSim -mask /media/veracrypt1/Analysis/ASL/MNI/gm_mask_2mm.nii.gz -acf 0.201667 4.41251 23.0045 -pthr 0.01 -nodec -iter 10000 -prefix acf_0p01 -quiet
+# 2-sided thresholding
+# Grid: 99x117x95 2.00x2.00x2.00 mm^3 (198856 voxels in mask)
+#
+# CLUSTER SIZE THRESHOLD(pthr,alpha) in Voxels
+# -NN 1  | alpha = Prob(Cluster >= given size)
+#  pthr  | .10000 .05000 .02000 .01000
+# ------ | ------ ------ ------ ------
+ 0.010000    1012   1349   1891   2323
